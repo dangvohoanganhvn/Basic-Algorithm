@@ -1,0 +1,46 @@
+II. Installation for test script development
+II.1 Installation for test script development
+II.1.1 Install Python and supported libraries
+
+    Install Python
+
+        Currently, InSTA is developed on Python 2.7.13. You could download it here:
+
+        https://www.python.org/downloads/release/python-2713/
+
+        Log off Windows then log in to update system environment variable PATH.
+
+    Install Pywin
+
+        Pywin is required for Python to call Win32 APIs. You could download it here:
+
+        https://sourceforge.net/projects/pywin32/files/pywin32/Build%20221/pywin32-221.win32-py2.7.exe/download
+
+    Install Wxpython
+
+        Wxpython 2.8.12.1 is required to create graphical user interface for Python.
+
+        Download the installation here: https://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/wxPython2.8-win32-unicode-2.8.12.1-py27.exe/download
+
+II.1.2. Install Robotframework and its IDE
+
+    Install Robotframework
+
+        Robotframework is required for test management.
+
+        Download it here: https://github.com/robotframework/robotframework
+
+        Unzip it to a folder. Open Command window, browse to the folder, execute command: C:/Python27/python.exe setup.py install
+
+    Install RIDE
+
+        RIDE is the IDE for Robotframework. It is required for test case development.
+
+        Download it here: https://github.com/robotframework/RIDE
+
+        Unzip it to a folder. Open Command window, browse to the folder, execute command: C:/Python27/python.exe setup.py install
+
+        Add C:/Python27/Scripts to PATH variable.
+
+        After that, create a desktop shortcut C:/Python27/python.exe C:/Python27/Scripts/ride.py to open the GUI of RIDE.
+
